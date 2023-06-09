@@ -375,6 +375,36 @@ public void actionPerformed(ActionEvent e) {
 
         }
 
+public void enable() {
+        onRadioButton.setEnabled(false);
+        offRadioButton.setEnabled(true);
+        textField.setEnabled(true);
+        label.setEnabled(true);
+        buttonClear.setEnabled(true);
+        buttonDelete.setEnabled(true);
+        buttonDiv.setEnabled(true);
+        buttonSqrt.setEnabled(true);
+        buttonSquare.setEnabled(true);
+        buttonReciprocal.setEnabled(true);
+        buttonMinus.setEnabled(true);
+        buttonSeven.setEnabled(true);
+        buttonEight.setEnabled(true);
+        buttonNine.setEnabled(true);
+        buttonMul.setEnabled(true);
+        buttonFour.setEnabled(true);
+        buttonFive.setEnabled(true);
+        buttonSix.setEnabled(true);
+        buttonPlus.setEnabled(true);
+        buttonOne.setEnabled(true);
+        buttonTwo.setEnabled(true);
+        buttonThree.setEnabled(true);
+        buttonEqual.setEnabled(true);
+        buttonZero.setEnabled(true);
+        buttonDot.setEnabled(true);
+
+        }
+
+
 
 
 
