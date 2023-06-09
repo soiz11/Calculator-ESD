@@ -163,10 +163,8 @@ public class Calculator implements ActionListener {
         buttonReciprocal.setFont(new Font("Arial", Font.BOLD, 15));
         frame.add(buttonReciprocal);
 
-    }
 
-
-buttonDelete.setBounds(150, 110, 60, 40);
+        buttonDelete.setBounds(150, 110, 60, 40);
         buttonDelete.setFont(new Font("Arial", Font.BOLD, 12));
         buttonDelete.setBackground(Color.red);
         buttonDelete.setForeground(Color.white);
@@ -178,23 +176,16 @@ buttonDelete.setBounds(150, 110, 60, 40);
         buttonClear.setForeground(Color.white);
         frame.add(buttonClear);
 
-}
+    }
 
-        buttonDelete.setBounds(150, 110, 60, 40);
-                buttonDelete.setFont(new Font("Arial", Font.BOLD, 12));
-                buttonDelete.setBackground(Color.red);
-                buttonDelete.setForeground(Color.white);
-                frame.add(buttonDelete);
 
-                buttonClear.setBounds(80, 110, 60, 40);
-                buttonClear.setFont(new Font("Arial", Font.BOLD, 12));
-                buttonClear.setBackground(Color.red);
-                buttonClear.setForeground(Color.white);
-                frame.add(buttonClear);
 
-                }
 
-public void addActionEvent() {
+
+
+
+
+    public void addActionEvent() {
         onRadioButton.addActionListener(this);
         offRadioButton.addActionListener(this);
         buttonClear.addActionListener(this);
@@ -224,7 +215,7 @@ public void addActionEvent() {
 
 @Override
 
-public void actionPerformed(ActionEvent e) {
+    public void actionPerformed(ActionEvent e) {
         Object source = e.getSource();
         if (source == onRadioButton) {
         enable();
@@ -370,12 +361,12 @@ public void actionPerformed(ActionEvent e) {
         break;
 
         }
-        }
+    }
 
 
-        }
+ }
 
-public void enable() {
+    public void enable() {
         onRadioButton.setEnabled(false);
         offRadioButton.setEnabled(true);
         textField.setEnabled(true);
@@ -431,7 +422,7 @@ public void disable() {
         buttonZero.setEnabled(false);
         buttonDot.setEnabled(false);
         }
-        }
+}
 
 
 
