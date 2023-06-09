@@ -164,3 +164,64 @@ public class Calculator implements ActionListener {
         frame.add(buttonReciprocal);
 
     }
+
+
+buttonDelete.setBounds(150, 110, 60, 40);
+        buttonDelete.setFont(new Font("Arial", Font.BOLD, 12));
+        buttonDelete.setBackground(Color.red);
+        buttonDelete.setForeground(Color.white);
+        frame.add(buttonDelete);
+
+        buttonClear.setBounds(80, 110, 60, 40);
+        buttonClear.setFont(new Font("Arial", Font.BOLD, 12));
+        buttonClear.setBackground(Color.red);
+        buttonClear.setForeground(Color.white);
+        frame.add(buttonClear);
+
+}
+
+        buttonDelete.setBounds(150, 110, 60, 40);
+                buttonDelete.setFont(new Font("Arial", Font.BOLD, 12));
+                buttonDelete.setBackground(Color.red);
+                buttonDelete.setForeground(Color.white);
+                frame.add(buttonDelete);
+
+                buttonClear.setBounds(80, 110, 60, 40);
+                buttonClear.setFont(new Font("Arial", Font.BOLD, 12));
+                buttonClear.setBackground(Color.red);
+                buttonClear.setForeground(Color.white);
+                frame.add(buttonClear);
+
+                }
+
+public void addActionEvent() {
+        onRadioButton.addActionListener(this);
+        offRadioButton.addActionListener(this);
+        buttonClear.addActionListener(this);
+        buttonDelete.addActionListener(this);
+        buttonDiv.addActionListener(this);
+        buttonSqrt.addActionListener(this);
+        buttonSquare.addActionListener(this);
+        buttonReciprocal.addActionListener(this);
+        buttonMinus.addActionListener(this);
+        buttonSeven.addActionListener(this);
+        buttonEight.addActionListener(this);
+        buttonNine.addActionListener(this);
+        buttonMul.addActionListener(this);
+        buttonFour.addActionListener(this);
+        buttonFive.addActionListener(this);
+        buttonSix.addActionListener(this);
+        buttonPlus.addActionListener(this);
+        buttonOne.addActionListener(this);
+        buttonTwo.addActionListener(this);
+        buttonThree.addActionListener(this);
+        buttonEqual.addActionListener(this);
+        buttonZero.addActionListener(this);
+        buttonDot.addActionListener(this);
+
+
+        }
+
+@Override
+
+
