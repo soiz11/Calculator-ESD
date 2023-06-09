@@ -117,4 +117,50 @@ public class Calculator implements ActionListener {
         buttonThree.setBounds(150, 350, 60, 40);
         buttonThree.setFont(new Font("Arial", Font.BOLD, 20));
         frame.add(buttonThree);
+
+        buttonDot.setBounds(150, 410, 60, 40);
+        buttonDot.setFont(new Font("Arial", Font.BOLD, 20));
+        frame.add(buttonDot);
+
+        buttonZero.setBounds(10, 410, 130, 40);
+        buttonZero.setFont(new Font("Arial", Font.BOLD, 20));
+        frame.add(buttonZero);
+
+        buttonEqual.setBounds(220, 350, 60, 100);
+        buttonEqual.setFont(new Font("Arial", Font.BOLD, 20));
+        buttonEqual.setBackground(new Color(239, 188, 2));
+        frame.add(buttonEqual);
+
+        buttonDiv.setBounds(220, 110, 60, 40);
+        buttonDiv.setFont(new Font("Arial", Font.BOLD, 20));
+        buttonDiv.setBackground(new Color(239, 188, 2));
+        frame.add(buttonDiv);
+
+        buttonSqrt.setBounds(10, 170, 60, 40);
+        buttonSqrt.setFont(new Font("Arial", Font.BOLD, 18));
+        frame.add(buttonSqrt);
+
+        buttonMul.setBounds(220, 230, 60, 40);
+        buttonMul.setFont(new Font("Arial", Font.BOLD, 20));
+        buttonMul.setBackground(new Color(239, 188, 2));
+        frame.add(buttonMul);
+
+        buttonMinus.setBounds(220, 170, 60, 40);
+        buttonMinus.setFont(new Font("Arial", Font.BOLD, 20));
+        buttonMinus.setBackground(new Color(239, 188, 2));
+        frame.add(buttonMinus);
+
+        buttonPlus.setBounds(220, 290, 60, 40);
+        buttonPlus.setFont(new Font("Arial", Font.BOLD, 20));
+        buttonPlus.setBackground(new Color(239, 188, 2));
+        frame.add(buttonPlus);
+
+        buttonSquare.setBounds(80, 170, 60, 40);
+        buttonSquare.setFont(new Font("Arial", Font.BOLD, 20));
+        frame.add(buttonSquare);
+
+        buttonReciprocal.setBounds(150, 170, 60, 40);
+        buttonReciprocal.setFont(new Font("Arial", Font.BOLD, 15));
+        frame.add(buttonReciprocal);
+
     }
