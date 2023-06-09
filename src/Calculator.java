@@ -330,3 +330,21 @@ public void actionPerformed(ActionEvent e) {
         } else if (source == buttonEqual) {
         switch (calculation) {
 
+        case 1:
+        answer = number + Double.parseDouble(textField.getText());
+        if (Double.toString(answer).endsWith(".0")) {
+        textField.setText(Double.toString(answer).replace(".0", ""));
+        } else {
+        textField.setText(Double.toString(answer));
+        }
+        label.setText("");
+        break;
+        case 2:
+        answer = number - Double.parseDouble(textField.getText());
+        if (Double.toString(answer).endsWith(".0")) {
+        textField.setText(Double.toString(answer).replace(".0", ""));
+        } else {
+        textField.setText(Double.toString(answer));
+        }
+        label.setText("");
+        break;
