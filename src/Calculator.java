@@ -404,6 +404,34 @@ public void enable() {
 
         }
 
+public void disable() {
+        onRadioButton.setEnabled(true);
+        offRadioButton.setEnabled(false);
+        textField.setText("");
+        label.setText(" ");
+        buttonClear.setEnabled(false);
+        buttonDelete.setEnabled(false);
+        buttonDiv.setEnabled(false);
+        buttonSqrt.setEnabled(false);
+        buttonSquare.setEnabled(false);
+        buttonReciprocal.setEnabled(false);
+        buttonMinus.setEnabled(false);
+        buttonSeven.setEnabled(false);
+        buttonEight.setEnabled(false);
+        buttonNine.setEnabled(false);
+        buttonMul.setEnabled(false);
+        buttonFour.setEnabled(false);
+        buttonFive.setEnabled(false);
+        buttonSix.setEnabled(false);
+        buttonPlus.setEnabled(false);
+        buttonOne.setEnabled(false);
+        buttonTwo.setEnabled(false);
+        buttonThree.setEnabled(false);
+        buttonEqual.setEnabled(false);
+        buttonZero.setEnabled(false);
+        buttonDot.setEnabled(false);
+        }
+        }
 
 
 
