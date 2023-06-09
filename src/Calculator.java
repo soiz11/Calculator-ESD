@@ -357,4 +357,11 @@ public void actionPerformed(ActionEvent e) {
         textField.setText(Double.toString(answer));
         }
         label.setText("");
+        break;
+
+        }
+        }
+
+
+        }
 
