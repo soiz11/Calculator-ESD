@@ -359,9 +359,5 @@ public void actionPerformed(ActionEvent e) {
         label.setText("");
         break;
 
-        }
-        }
 
-
-        }
 
